@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity.DienThoaiActivity">
+    tools:context="com.admin.hoang.Activity.DienThoaiActivity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toobar"
         app:title="Điện Thoại"
-        android:background="#B2B4C1"
+        android:background="#CDDC39"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">

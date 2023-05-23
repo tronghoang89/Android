@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">HOANG</string>
+    <string name="app_name">App quan ly</string>
     <string name="gia_25000_d">Gia: 25000 d</string>
     <string name="gia_250000">Gia: 250000</string>
     <string name="them_vao_gio_hang">Them vao gio hang</string>
+    <string name="gia_25000">gia_25000</string>
+    <string name="gia_50000">Gia :25000</string>
+    <string name="gia_250000d">gia:250000d</string>
+    <string name="dang_nhap">Dang Nhap</string>
 </resources>

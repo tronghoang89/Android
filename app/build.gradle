@@ -1,13 +1,14 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
 }
 
 android {
-    namespace 'com.example.hoang'
+    namespace 'com.admin.hoang'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.hoang"
+        applicationId "com.admin.hoang"
         minSdk 24
         targetSdk 33
         versionCode 1
@@ -26,13 +27,23 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildFeatures{
+        viewBinding true
+        dataBinding true
+    }
 }
 
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    implementation 'com.google.android.gms:play-services-auth:20.5.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.0.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
@@ -48,4 +59,19 @@ dependencies {
     implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
     //brade
     implementation 'com.nex3z:notification-badge:1.0.4'
+    //even bus library
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    //paper
+    implementation 'io.github.pilgr:paperdb:2.7.1'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.9'
+
+    //cai lottie load
+    implementation 'com.airbnb.android:lottie:4.2.2'
+    //neumarphirm
+    implementation 'com.github.fornewid:neumorphism:0.3.0'
+    // image picker
+    implementation 'com.github.dhaval2404:imagepicker:2.1'
+
+
 }

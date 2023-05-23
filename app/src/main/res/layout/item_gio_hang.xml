@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:elevation="8dp"
+   app:cardCornerRadius="4dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_giohnag_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_new" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/item_giohang_tensp"
+                android:text="Ten san pham"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:weightSum="18"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="5"
+                    android:id="@+id/item_giohnag_gia"
+                    android:layout_marginLeft="10dp"
+                    android:text="15000"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/holo_red_light"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/item_gihang_tru"
+                    android:layout_weight="2"
+                    android:src="@drawable/baseline_remove_24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/item_giohnag_soluong"
+                    android:text="1"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/item_gihang_cong"
+                    android:layout_weight="2"
+                    android:textColor="@android:color/holo_red_light"
+                    android:src="@drawable/baseline_add_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/item_gihang_bang"
+                    android:layout_weight="2"
+                    android:textColor="@android:color/holo_red_light"
+                    android:src="@drawable/baseline_drag_handle_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/item_giohnag_giasp2"
+                    android:text="25000 d"
+                    android:gravity="center|center_vertical"
+                    android:layout_weight="5"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <CheckBox
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/item_giohang_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

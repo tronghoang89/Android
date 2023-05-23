@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "486904196313",
+    "project_id": "appbanhnag",
+    "storage_bucket": "appbanhnag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486904196313:android:94d761975dce04b46c62c8",
+        "android_client_info": {
+          "package_name": "com.admin.hoang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486904196313-q3puv1v2ed023e3dke2v1ioj6ovpfqgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.admin.hoang",
+            "certificate_hash": "0052da95c5bd4e7615a4b6243208f14dbee9f6d5"
+          }
+        },
+        {
+          "client_id": "486904196313-u1nbfaaghitj32h7l8m507oq0n49q20b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg6mnHME8WbsMlSWKCh9isxnbnnaa6900"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486904196313-dr4suvts7ao8mq7te0hna7ssa87it1qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

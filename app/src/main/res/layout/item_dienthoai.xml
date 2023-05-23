@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:elevation="8dp"
     app:cardCornerRadius="4dp"
     android:layout_margin="5dp"
@@ -36,9 +37,10 @@
                 android:id="@+id/itemdt_gia"
                 android:textSize="16sp"
                 android:textColor="@android:color/holo_red_light"
-                android:text="@string/gia_250000"
+                android:text="Gia :250000"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/itemdt_mota"
                 android:textSize="14sp"
